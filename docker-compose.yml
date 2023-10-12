@@ -1,0 +1,36 @@
+version: "3"
+
+volumes:
+  db:
+  
+services:
+  database:
+    image: "mongo:latest"
+    ports:
+      - 27017:27017
+    expose:
+      - 5432
+      
+  backend:
+    build:
+      context: /home/ss378v/Ontology/EMBL
+      dockerfile: /home/ss378v/Ontology/EMBL/Dockerfile
+    ports:
+      - 8080:8080
+    links:
+      - database
+
+  frontend:
+    build:
+      context: /home/ss378v/Ontology/EMBL/ontology-ui
+      dockerfile: /home/ss378v/Ontology/EMBL/ontology-ui/Dockerfile
+    ports:
+      - 3000:3000
+    links:
+      - backend
+
+  
+    
+
+  
+
