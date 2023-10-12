@@ -1,0 +1,352 @@
+2023-10-12 18:35:29.202 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 18:35:29.230 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 5204 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 18:35:29.230 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 18:35:33.192 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 18:35:33.192 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 18:35:33.208 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 16 ms
+2023-10-12 18:35:33.254 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.899 seconds (process running for 6.574)
+2023-10-12 18:35:33.507 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 18:35:33.694 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 18:37:23.737 [main] INFO  c.embl.ontology.OntologyApplication - Starting OntologyApplication using Java 17.0.8 with PID 12832 (C:\Users\ss378v\Downloads\Ontology\Ontology\target\classes started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 18:37:23.737 [main] INFO  c.embl.ontology.OntologyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 18:37:24.489 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-10-12 18:37:24.568 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 70 ms. Found 1 MongoDB repository interfaces.
+2023-10-12 18:37:25.115 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-12 18:37:25.123 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-12 18:37:25.123 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 18:37:25.264 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-12 18:37:25.264 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1450 ms
+2023-10-12 18:37:25.552 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17.0.8+9-LTS-211"} created with settings MongoClientSettings{readPreference=ReadPreference{name=primaryPreferred, hedgeOptions=null}, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@485caa8f, com.mongodb.Jep395RecordCodecProvider@2703d91]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-10-12 18:37:25.572 [cluster-ClusterId{value='6527ef8d2bfbb644e9df89fb', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=31794800}
+2023-10-12 18:37:26.332 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12 18:37:26.334 [main] INFO  c.embl.ontology.OntologyApplication - Started OntologyApplication in 3.339 seconds (process running for 4.231)
+2023-10-12 18:37:32.274 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 18:37:32.275 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-10-12 18:37:32.276 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-10-12 18:38:13.574 [http-nio-8080-exec-1] ERROR c.e.o.controller.OntologyController - Error{  "timestamp" : "2023-10-12T13:08:13.426+00:00",  "status" : 500,  "error" : "Internal Server Error",  "path" : "/ols4/api/ontologies/nul"}
+2023-10-12 18:40:03.155 [http-nio-8080-exec-6] ERROR c.e.o.controller.OntologyController - Error{  "timestamp" : "2023-10-12T13:09:36.707+00:00",  "status" : 500,  "error" : "Internal Server Error",  "path" : "/ols4/api/ontologies/null"}
+2023-10-12 18:41:39.840 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 18:41:39.865 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 23592 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 18:41:39.865 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 18:41:43.560 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 18:41:43.560 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 18:41:43.560 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 18:41:43.595 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.579 seconds (process running for 6.179)
+2023-10-12 18:41:43.860 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 18:41:44.043 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 18:41:44.152 [main] ERROR c.e.o.controller.OntologyController - ErrorAn unexpected error occurred
+2023-10-12 18:44:24.945 [main] INFO  c.embl.ontology.OntologyApplication - Starting OntologyApplication using Java 17.0.8 with PID 5440 (C:\Users\ss378v\Downloads\Ontology\Ontology\target\classes started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 18:44:24.956 [main] INFO  c.embl.ontology.OntologyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 18:44:25.719 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-10-12 18:44:25.797 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 1 MongoDB repository interfaces.
+2023-10-12 18:44:26.324 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-12 18:44:26.341 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-12 18:44:26.341 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 18:44:26.482 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-12 18:44:26.482 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1448 ms
+2023-10-12 18:44:26.759 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17.0.8+9-LTS-211"} created with settings MongoClientSettings{readPreference=ReadPreference{name=primaryPreferred, hedgeOptions=null}, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@383c3eb3, com.mongodb.Jep395RecordCodecProvider@20ab76ee]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-10-12 18:44:26.778 [cluster-ClusterId{value='6527f132936b60293b005a29', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=33536000}
+2023-10-12 18:44:27.513 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12 18:44:27.524 [main] INFO  c.embl.ontology.OntologyApplication - Started OntologyApplication in 3.315 seconds (process running for 4.142)
+2023-10-12 18:45:03.542 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 18:45:03.542 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-10-12 18:45:03.552 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-10-12 18:45:11.504 [http-nio-8080-exec-1] ERROR c.e.o.controller.OntologyController - Error{  "timestamp" : "2023-10-12T13:15:11.264+00:00",  "status" : 500,  "error" : "Internal Server Error",  "path" : "/ols4/api/ontologies/null"}
+2023-10-12 18:45:26.790 [http-nio-8080-exec-3] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=efo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://www.ebi.ac.uk/efo/releases/v3.58.0/efo.owl","creators":[],"description":"The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://www.ebi.ac.uk/efo/efo.owl","title":"Experimental Factor Ontology","version":"3.58.0","isSkos":false,"preferredPrefix":"EFO","hiddenProperties":["http://www.ebi.ac.uk/efo/has_flag"],"hierarchicalProperties":["http://purl.obolibrary.org/obo/BFO_0000050","http://purl.obolibrary.org/obo/RO_0002202"],"definitionProperties":["http://purl.obolibrary.org/obo/IAO_0000115","http://www.ebi.ac.uk/efo/definition"],"preferredRootTerms":[],"namespace":"efo","tracker":null,"synonymProperties":["http://www.ebi.ac.uk/efo/alternative_term","http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"],"logo":null,"id":"efo","baseUris":["http://www.ebi.ac.uk/efo/EFO_"],"mailingList":"efo-users@lists.sourceforge.net","allowDownload":false,"homepage":"http://www.ebi.ac.uk/efo"})
+2023-10-12 18:46:22.418 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 18:46:22.439 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 6192 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 18:46:22.439 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 18:46:26.167 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 18:46:26.167 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 18:46:26.167 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 18:46:26.217 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.551 seconds (process running for 6.151)
+2023-10-12 18:46:26.452 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 18:51:26.580 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 18:51:26.611 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 18676 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 18:51:26.611 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 18:51:30.435 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 18:51:30.435 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 18:51:30.435 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 18:51:30.469 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.704 seconds (process running for 6.31)
+2023-10-12 18:51:30.719 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 18:51:30.933 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 18:51:31.042 [main] ERROR c.e.o.controller.OntologyController - ErrorAn unexpected error occurred
+2023-10-12 19:04:14.938 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:04:14.961 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 19496 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:04:14.963 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:04:19.123 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:04:19.124 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:04:19.126 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2023-10-12 19:04:19.171 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 5.043 seconds (process running for 6.698)
+2023-10-12 19:04:19.432 [main] ERROR c.e.o.controller.OntologyController - ErrorCannot invoke "String.length()" because "this.in" is null
+2023-10-12 19:04:19.605 [main] ERROR c.e.o.controller.OntologyController - ErrorOntology not available in OLS
+2023-10-12 19:04:19.711 [main] ERROR c.e.o.controller.OntologyController - ErrorAn unexpected error occurred
+2023-10-12 19:36:51.002 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:36:51.025 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 24296 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:36:51.025 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:36:55.067 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:36:55.067 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:36:55.083 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 16 ms
+2023-10-12 19:36:55.117 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.965 seconds (process running for 6.605)
+2023-10-12 19:36:55.383 [main] ERROR c.e.o.controller.OntologyController - ErrorCannot invoke "String.length()" because "this.in" is null
+2023-10-12 19:36:55.554 [main] ERROR c.e.o.controller.OntologyController - ErrorOntology not available in OLS
+2023-10-12 19:36:55.679 [main] ERROR c.e.o.controller.OntologyController - ErrorAn unexpected error occurred
+2023-10-12 19:37:19.564 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:37:19.587 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 19700 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:37:19.587 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:37:23.588 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:37:23.588 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:37:23.588 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 19:37:23.635 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.897 seconds (process running for 6.471)
+2023-10-12 19:37:23.904 [main] ERROR c.e.o.controller.OntologyController - ErrorCannot invoke "String.length()" because "this.in" is null
+2023-10-12 19:37:24.091 [main] ERROR c.e.o.controller.OntologyController - ErrorOntology not available in OLS
+2023-10-12 19:37:24.185 [main] ERROR c.e.o.controller.OntologyController - ErrorAn unexpected error occurred
+2023-10-12 19:38:58.601 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:38:58.617 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 13224 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:38:58.617 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:39:02.768 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:39:02.768 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:39:02.768 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 19:39:02.815 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.986 seconds (process running for 6.556)
+2023-10-12 19:39:03.072 [main] ERROR c.e.o.controller.OntologyController - ErrorCannot invoke "String.length()" because "this.in" is null
+2023-10-12 19:40:33.138 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:40:33.167 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 23580 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:40:33.167 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:40:37.335 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:40:37.335 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:40:37.335 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 19:40:37.382 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 5.025 seconds (process running for 6.625)
+2023-10-12 19:40:37.656 [main] ERROR c.e.o.controller.OntologyController - ErrorCannot invoke "String.length()" because "this.in" is null
+2023-10-12 19:43:16.186 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:43:16.217 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 17636 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:43:16.217 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:43:20.358 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:43:20.358 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:43:20.358 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 19:43:20.408 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 5.044 seconds (process running for 6.698)
+2023-10-12 19:43:20.674 [main] ERROR c.e.o.controller.OntologyController - ErrorCannot invoke "String.length()" because "this.in" is null
+2023-10-12 19:46:29.813 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:46:29.846 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 25508 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:46:29.846 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:46:33.834 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:46:33.834 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:46:33.834 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 19:46:33.866 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.848 seconds (process running for 6.446)
+2023-10-12 19:46:34.149 [main] ERROR c.e.o.controller.OntologyController - ErrorCannot invoke "String.length()" because "this.in" is null
+2023-10-12 19:55:30.807 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:55:30.826 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 25268 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:55:30.826 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:55:34.777 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:55:34.777 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:55:34.793 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 19:55:34.824 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.849 seconds (process running for 6.483)
+2023-10-12 19:55:35.125 [main] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=efo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://www.ebi.ac.uk/efo/releases/v3.58.0/efo.owl","creators":[],"description":"The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://www.ebi.ac.uk/efo/efo.owl","title":"Experimental Factor Ontology","version":"3.58.0","isSkos":false,"preferredPrefix":"EFO","hiddenProperties":["http://www.ebi.ac.uk/efo/has_flag"],"hierarchicalProperties":["http://purl.obolibrary.org/obo/BFO_0000050","http://purl.obolibrary.org/obo/RO_0002202"],"definitionProperties":["http://purl.obolibrary.org/obo/IAO_0000115","http://www.ebi.ac.uk/efo/definition"],"preferredRootTerms":[],"namespace":"efo","tracker":null,"synonymProperties":["http://www.ebi.ac.uk/efo/alternative_term","http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"],"logo":null,"id":"efo","baseUris":["http://www.ebi.ac.uk/efo/EFO_"],"mailingList":"efo-users@lists.sourceforge.net","allowDownload":false,"homepage":"http://www.ebi.ac.uk/efo"})
+2023-10-12 19:58:16.018 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 19:58:16.046 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 1552 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 19:58:16.046 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 19:58:20.025 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 19:58:20.025 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 19:58:20.025 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 19:58:20.067 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.838 seconds (process running for 6.467)
+2023-10-12 19:58:20.367 [main] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=efo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://www.ebi.ac.uk/efo/releases/v3.58.0/efo.owl","creators":[],"description":"The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://www.ebi.ac.uk/efo/efo.owl","title":"Experimental Factor Ontology","version":"3.58.0","isSkos":false,"preferredPrefix":"EFO","hiddenProperties":["http://www.ebi.ac.uk/efo/has_flag"],"hierarchicalProperties":["http://purl.obolibrary.org/obo/BFO_0000050","http://purl.obolibrary.org/obo/RO_0002202"],"definitionProperties":["http://purl.obolibrary.org/obo/IAO_0000115","http://www.ebi.ac.uk/efo/definition"],"preferredRootTerms":[],"namespace":"efo","tracker":null,"synonymProperties":["http://www.ebi.ac.uk/efo/alternative_term","http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"],"logo":null,"id":"efo","baseUris":["http://www.ebi.ac.uk/efo/EFO_"],"mailingList":"efo-users@lists.sourceforge.net","allowDownload":false,"homepage":"http://www.ebi.ac.uk/efo"})
+2023-10-12 19:58:20.648 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 19:58:20.695 [main] ERROR c.e.o.controller.OntologyController - ErrorOntology not available in OLS
+2023-10-12 19:58:20.695 [main] ERROR c.e.o.controller.OntologyController - ErrorAn unexpected error occurred
+2023-10-12 20:00:08.107 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 20:00:08.125 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 3956 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 20:00:08.125 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 20:00:12.321 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 20:00:12.321 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 20:00:12.321 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 20:00:12.368 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 5.048 seconds (process running for 6.764)
+2023-10-12 20:00:12.615 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 20:01:17.223 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 20:01:17.254 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 23968 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 20:01:17.254 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 20:01:21.344 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 20:01:21.344 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 20:01:21.344 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 20:01:21.394 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 5.032 seconds (process running for 6.621)
+2023-10-12 20:01:21.644 [main] ERROR c.e.o.controller.OntologyController - Ontology not found in OLS
+2023-10-12 20:03:54.636 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/ss378v/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/ss378v/.m2/repository/org/json/json/20180813/json-20180813.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-10-12 20:03:54.667 [main] INFO  c.e.ontology.OntologyControllerTest - Starting OntologyControllerTest using Java 17.0.8 with PID 25764 (started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 20:03:54.667 [main] INFO  c.e.ontology.OntologyControllerTest - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 20:03:58.662 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2023-10-12 20:03:58.662 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2023-10-12 20:03:58.662 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2023-10-12 20:03:58.698 [main] INFO  c.e.ontology.OntologyControllerTest - Started OntologyControllerTest in 4.853 seconds (process running for 6.514)
+2023-10-12 20:03:59.010 [main] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=efo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://www.ebi.ac.uk/efo/releases/v3.58.0/efo.owl","creators":[],"description":"The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://www.ebi.ac.uk/efo/efo.owl","title":"Experimental Factor Ontology","version":"3.58.0","isSkos":false,"preferredPrefix":"EFO","hiddenProperties":["http://www.ebi.ac.uk/efo/has_flag"],"hierarchicalProperties":["http://purl.obolibrary.org/obo/BFO_0000050","http://purl.obolibrary.org/obo/RO_0002202"],"definitionProperties":["http://purl.obolibrary.org/obo/IAO_0000115","http://www.ebi.ac.uk/efo/definition"],"preferredRootTerms":[],"namespace":"efo","tracker":null,"synonymProperties":["http://www.ebi.ac.uk/efo/alternative_term","http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"],"logo":null,"id":"efo","baseUris":["http://www.ebi.ac.uk/efo/EFO_"],"mailingList":"efo-users@lists.sourceforge.net","allowDownload":false,"homepage":"http://www.ebi.ac.uk/efo"})
+2023-10-12 20:03:59.276 [main] ERROR c.e.o.controller.OntologyController - ErrorOntology not available in OLS
+2023-10-12 20:03:59.291 [main] ERROR c.e.o.controller.OntologyController - ErrorAn unexpected error occurred
+2023-10-12 20:04:18.384 [main] INFO  c.embl.ontology.OntologyApplication - Starting OntologyApplication using Java 17.0.8 with PID 3496 (C:\Users\ss378v\Downloads\Ontology\Ontology\target\classes started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 20:04:18.393 [main] INFO  c.embl.ontology.OntologyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 20:04:19.146 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-10-12 20:04:19.240 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 76 ms. Found 1 MongoDB repository interfaces.
+2023-10-12 20:04:19.787 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-12 20:04:19.789 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-12 20:04:19.789 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 20:04:19.924 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-12 20:04:19.924 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1465 ms
+2023-10-12 20:04:20.192 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17.0.8+9-LTS-211"} created with settings MongoClientSettings{readPreference=ReadPreference{name=primaryPreferred, hedgeOptions=null}, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@29be997f, com.mongodb.Jep395RecordCodecProvider@33eb6758]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-10-12 20:04:20.212 [cluster-ClusterId{value='652803ec3402570b3c4a2007', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=29796400}
+2023-10-12 20:04:20.931 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12 20:04:20.939 [main] INFO  c.embl.ontology.OntologyApplication - Started OntologyApplication in 3.304 seconds (process running for 4.164)
+2023-10-12 20:04:36.287 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 20:04:36.287 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-10-12 20:04:36.291 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-10-12 20:04:40.479 [http-nio-8080-exec-1] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=efo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://www.ebi.ac.uk/efo/releases/v3.58.0/efo.owl","creators":[],"description":"The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://www.ebi.ac.uk/efo/efo.owl","title":"Experimental Factor Ontology","version":"3.58.0","isSkos":false,"preferredPrefix":"EFO","hiddenProperties":["http://www.ebi.ac.uk/efo/has_flag"],"hierarchicalProperties":["http://purl.obolibrary.org/obo/BFO_0000050","http://purl.obolibrary.org/obo/RO_0002202"],"definitionProperties":["http://purl.obolibrary.org/obo/IAO_0000115","http://www.ebi.ac.uk/efo/definition"],"preferredRootTerms":[],"namespace":"efo","tracker":null,"synonymProperties":["http://www.ebi.ac.uk/efo/alternative_term","http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"],"logo":null,"id":"efo","baseUris":["http://www.ebi.ac.uk/efo/EFO_"],"mailingList":"efo-users@lists.sourceforge.net","allowDownload":false,"homepage":"http://www.ebi.ac.uk/efo"})
+2023-10-12 20:09:00.271 [http-nio-8080-exec-4] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=efo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://www.ebi.ac.uk/efo/releases/v3.58.0/efo.owl","creators":[],"description":"The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://www.ebi.ac.uk/efo/efo.owl","title":"Experimental Factor Ontology","version":"3.58.0","isSkos":false,"preferredPrefix":"EFO","hiddenProperties":["http://www.ebi.ac.uk/efo/has_flag"],"hierarchicalProperties":["http://purl.obolibrary.org/obo/BFO_0000050","http://purl.obolibrary.org/obo/RO_0002202"],"definitionProperties":["http://purl.obolibrary.org/obo/IAO_0000115","http://www.ebi.ac.uk/efo/definition"],"preferredRootTerms":[],"namespace":"efo","tracker":null,"synonymProperties":["http://www.ebi.ac.uk/efo/alternative_term","http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"],"logo":null,"id":"efo","baseUris":["http://www.ebi.ac.uk/efo/EFO_"],"mailingList":"efo-users@lists.sourceforge.net","allowDownload":false,"homepage":"http://www.ebi.ac.uk/efo"})
+2023-10-12 21:06:47.364 [http-nio-8080-exec-6] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=efo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://www.ebi.ac.uk/efo/releases/v3.58.0/efo.owl","creators":[],"description":"The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://www.ebi.ac.uk/efo/efo.owl","title":"Experimental Factor Ontology","version":"3.58.0","isSkos":false,"preferredPrefix":"EFO","hiddenProperties":["http://www.ebi.ac.uk/efo/has_flag"],"hierarchicalProperties":["http://purl.obolibrary.org/obo/BFO_0000050","http://purl.obolibrary.org/obo/RO_0002202"],"definitionProperties":["http://purl.obolibrary.org/obo/IAO_0000115","http://www.ebi.ac.uk/efo/definition"],"preferredRootTerms":[],"namespace":"efo","tracker":null,"synonymProperties":["http://www.ebi.ac.uk/efo/alternative_term","http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"],"logo":null,"id":"efo","baseUris":["http://www.ebi.ac.uk/efo/EFO_"],"mailingList":"efo-users@lists.sourceforge.net","allowDownload":false,"homepage":"http://www.ebi.ac.uk/efo"})
+2023-10-12 21:07:38.475 [http-nio-8080-exec-7] INFO  c.e.o.controller.OntologyController - Fetching ontology details from OLS and stored in local databaseOntologyEntity(ontologyId=mondo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://purl.obolibrary.org/obo/mondo/releases/2023-09-12/mondo.owl","creators":[],"description":"A semi-automatically constructed ontology that merges in multiple disease resources to yield a coherent merged ontology.","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://purl.obolibrary.org/obo/mondo.owl","title":"Mondo Disease Ontology","version":null,"isSkos":false,"preferredPrefix":"MONDO","hiddenProperties":[],"hierarchicalProperties":[],"definitionProperties":[],"preferredRootTerms":[],"namespace":"mondo","tracker":"https://github.com/monarch-initiative/mondo/issues","synonymProperties":[],"logo":null,"id":"mondo","baseUris":[],"mailingList":"https://groups.google.com/group/mondo-users","allowDownload":false,"homepage":"https://monarch-initiative.github.io/mondo"})
+2023-10-12 21:17:44.789 [http-nio-8080-exec-9] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=mondo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://purl.obolibrary.org/obo/mondo/releases/2023-09-12/mondo.owl","creators":[],"description":"A semi-automatically constructed ontology that merges in multiple disease resources to yield a coherent merged ontology.","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://purl.obolibrary.org/obo/mondo.owl","title":"Mondo Disease Ontology","version":null,"isSkos":false,"preferredPrefix":"MONDO","hiddenProperties":[],"hierarchicalProperties":[],"definitionProperties":[],"preferredRootTerms":[],"namespace":"mondo","tracker":"https://github.com/monarch-initiative/mondo/issues","synonymProperties":[],"logo":null,"id":"mondo","baseUris":[],"mailingList":"https://groups.google.com/group/mondo-users","allowDownload":false,"homepage":"https://monarch-initiative.github.io/mondo"})
+2023-10-12 21:17:47.014 [http-nio-8080-exec-10] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=mondo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://purl.obolibrary.org/obo/mondo/releases/2023-09-12/mondo.owl","creators":[],"description":"A semi-automatically constructed ontology that merges in multiple disease resources to yield a coherent merged ontology.","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://purl.obolibrary.org/obo/mondo.owl","title":"Mondo Disease Ontology","version":null,"isSkos":false,"preferredPrefix":"MONDO","hiddenProperties":[],"hierarchicalProperties":[],"definitionProperties":[],"preferredRootTerms":[],"namespace":"mondo","tracker":"https://github.com/monarch-initiative/mondo/issues","synonymProperties":[],"logo":null,"id":"mondo","baseUris":[],"mailingList":"https://groups.google.com/group/mondo-users","allowDownload":false,"homepage":"https://monarch-initiative.github.io/mondo"})
+2023-10-12 21:21:09.673 [http-nio-8080-exec-2] INFO  c.e.o.controller.OntologyController - Ontology found in local databaseOntologyEntity(ontologyId=efo, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://www.ebi.ac.uk/efo/releases/v3.58.0/efo.owl","creators":[],"description":"The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://www.ebi.ac.uk/efo/efo.owl","title":"Experimental Factor Ontology","version":"3.58.0","isSkos":false,"preferredPrefix":"EFO","hiddenProperties":["http://www.ebi.ac.uk/efo/has_flag"],"hierarchicalProperties":["http://purl.obolibrary.org/obo/BFO_0000050","http://purl.obolibrary.org/obo/RO_0002202"],"definitionProperties":["http://purl.obolibrary.org/obo/IAO_0000115","http://www.ebi.ac.uk/efo/definition"],"preferredRootTerms":[],"namespace":"efo","tracker":null,"synonymProperties":["http://www.ebi.ac.uk/efo/alternative_term","http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"],"logo":null,"id":"efo","baseUris":["http://www.ebi.ac.uk/efo/EFO_"],"mailingList":"efo-users@lists.sourceforge.net","allowDownload":false,"homepage":"http://www.ebi.ac.uk/efo"})
+2023-10-12 21:22:19.028 [http-nio-8080-exec-4] ERROR c.e.o.controller.OntologyController - Error{  "timestamp" : "2023-10-12T15:52:18.898+00:00",  "status" : 500,  "error" : "Internal Server Error",  "path" : "/ols4/api/ontologies/xyz"}
+2023-10-12 21:24:25.677 [http-nio-8080-exec-6] ERROR c.e.o.controller.OntologyController - Error{  "timestamp" : "2023-10-12T15:54:25.531+00:00",  "status" : 500,  "error" : "Internal Server Error",  "path" : "/ols4/api/ontologies/xyz"}
+2023-10-12 21:26:48.874 [http-nio-8080-exec-8] ERROR c.e.o.controller.OntologyController - Error{  "timestamp" : "2023-10-12T15:56:48.735+00:00",  "status" : 500,  "error" : "Internal Server Error",  "path" : "/ols4/api/ontologies/xyz"}
+2023-10-12 21:29:34.219 [main] INFO  c.embl.ontology.OntologyApplication - Starting OntologyApplication using Java 17.0.8 with PID 1620 (C:\Users\ss378v\Downloads\Ontology\Ontology\target\classes started by ss378v in C:\Users\ss378v\Downloads\Ontology\Ontology)
+2023-10-12 21:29:34.235 [main] INFO  c.embl.ontology.OntologyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-10-12 21:29:35.002 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-10-12 21:29:35.080 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 1 MongoDB repository interfaces.
+2023-10-12 21:29:35.606 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-10-12 21:29:35.616 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-10-12 21:29:35.616 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-12 21:29:35.741 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-10-12 21:29:35.741 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1438 ms
+2023-10-12 21:29:36.016 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.9.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/17.0.8+9-LTS-211"} created with settings MongoClientSettings{readPreference=ReadPreference{name=primaryPreferred, hedgeOptions=null}, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7c281eb8, com.mongodb.Jep395RecordCodecProvider@65f40689]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[127.0.0.1:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-10-12 21:29:36.035 [cluster-ClusterId{value='652817e7b521c722d1504b9c', description='null'}-127.0.0.1:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=127.0.0.1:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=31172300}
+2023-10-12 21:29:36.757 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-10-12 21:29:36.766 [main] INFO  c.embl.ontology.OntologyApplication - Started OntologyApplication in 3.293 seconds (process running for 4.271)
+2023-10-12 21:30:39.375 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-12 21:30:39.376 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-10-12 21:30:39.377 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-10-12 21:30:40.546 [http-nio-8080-exec-1] INFO  c.e.o.controller.OntologyController - Fetching ontology details from OLS and stored in local databaseOntologyEntity(ontologyId=agro, title=null, description=null, definitionProperties=null, synonymProperties=null, ontologyData={"versionIri":"http://purl.obolibrary.org/obo/agro/releases/2022-11-02/agro.owl","creators":[],"description":"AgrO is an ontlogy for representing agronomic practices, techniques, variables and related entities","annotations":null,"oboSlims":false,"labelProperty":"http://www.w3.org/2000/01/rdf-schema#label","fileLocation":"http://purl.obolibrary.org/obo/agro.owl","title":"Agronomy Ontology","version":null,"isSkos":false,"preferredPrefix":"AGRO","hiddenProperties":[],"hierarchicalProperties":[],"definitionProperties":[],"preferredRootTerms":[],"namespace":"agro","tracker":"https://github.com/AgriculturalSemantics/agro/issues/","synonymProperties":[],"logo":null,"id":"agro","baseUris":[],"mailingList":null,"allowDownload":false,"homepage":"https://github.com/AgriculturalSemantics/agro"})
+2023-10-12 21:30:53.636 [http-nio-8080-exec-2] ERROR c.e.o.controller.OntologyController - Error{  "timestamp" : "2023-10-12T16:00:53.466+00:00",  "status" : 500,  "error" : "Internal Server Error",  "path" : "/ols4/api/ontologies/xyz"}
