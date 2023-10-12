@@ -69,7 +69,7 @@ public class OntologyControllerTest {
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isNotFound())
                 .andExpect(jsonPath("$.status").value(HttpStatus.NOT_FOUND.name()))
-                .andExpect(jsonPath("$.message").value("Error"))
+                .andExpect(jsonPath("$.message").value("Ontology not available in OLS"))
                 .andExpect(jsonPath("$.errorMessage").value("Ontology not available in OLS"));
     }
 
@@ -83,7 +83,7 @@ public class OntologyControllerTest {
                 .contentType(MediaType.APPLICATION_JSON))
                 .andExpect(status().isNotFound())
                 .andExpect(jsonPath("$.status").value(HttpStatus.NOT_FOUND.name()))
-                .andExpect(jsonPath("$.message").value("Error"))
+                .andExpect(jsonPath("$.message").value("Ontology not available in OLS"))
                 .andExpect(jsonPath("$.errorMessage").value("An unexpected error occurred"));
     }
 }
