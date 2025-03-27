@@ -21,6 +21,8 @@ import lombok.Setter;
 @Getter
 @Document(collection = "Ontology")
 public class OntologyEntity {
+	
+	
 
 	 @Id 
 	 private String ontologyId;
